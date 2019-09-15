@@ -23,13 +23,13 @@ include "action.php";
                     <div class="page-header">
                         <h1>Delete Record</h1>
                     </div>
-                    <form  method="POST">
+                    <form action="delete.php" method="POST">
                         <div class="alert alert-danger fade in">
                             <input type="hidden" name="id" value="<?php echo trim($_GET["id"]); ?>"/>
                             <p>Are you sure you want to delete this record?</p><br>
                             <p>
                                 <input type="submit" value="Delete" class="btn btn-danger" name="delete">
-                                <a href="index2.php" class="btn btn-default">No</a>
+                                <a href="home.php" class="btn btn-default">No</a>
                             </p>
                         </div>
                     </form>
