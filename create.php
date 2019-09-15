@@ -90,7 +90,7 @@ Include "db.php";
                          <br> 
                          <br>                     
                         <input type="submit" class="btn btn-primary" value="Insert" name="submit">
-                        <a href="crud.php" class="btn btn-primary">Cancel</a>
+                        <a href="home.php" class="btn btn-primary">Cancel</a>
                     </fieldset>
                     </form>
                 </div>
