@@ -21,7 +21,7 @@ if(isset($_POST['login'])){
             $result = $conn->query($query);
             $id_list= $result->fetch_assoc();
             if (isset($id_list['id'])){
-                header("location: crud.php");
+                header("location: home.php");
             } else {
                 echo "Wrong Email or Password";
             }
